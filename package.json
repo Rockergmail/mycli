@@ -1,0 +1,47 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "A simple CLI for scaffolding Vue.js projects.",
+  "preferGlobal": true,
+  "bin": {
+    "mycli": "bin/mycli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rockergmail/mycli.git"
+  },
+  "keywords": [
+    "custion",
+    "cli"
+  ],
+  "author": "Rocker Lau",
+  "bugs": {
+    "url": "https://github.com/Rockergmail/mycli/issues"
+  },
+  "homepage": "https://github.com/Rockergmail/mycli#readme",
+  "dependencies": {
+    "async": "^2.4.0",
+    "chalk": "^2.1.0",
+    "commander": "^2.9.0",
+    "consolidate": "^0.14.0",
+    "download-git-repo": "^1.0.1",
+    "handlebars": "^4.0.5",
+    "inquirer": "^3.3.0",
+    "metalsmith": "^2.1.0",
+    "minimatch": "^3.0.0",
+    "multimatch": "^2.1.0",
+    "ora": "^1.3.0",
+    "read-metadata": "^1.0.0",
+    "request": "^2.67.0",
+    "rimraf": "^2.5.0",
+    "semver": "^5.1.0",
+    "uid": "0.0.2",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "execa": "^0.8.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
